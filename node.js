@@ -1,2 +1,3 @@
-fetch('https://fast-api.streamlit.app/')
-    .then((response) => console.log(response))
+fetch('https://fast-api-demo.vercel.app/')
+    .then((response) => response.json())
+    .then((data) => console.log(data))
